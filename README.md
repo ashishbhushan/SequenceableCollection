@@ -40,26 +40,26 @@ Example:
 g++ -std=c++11 -o C:/ashish/vscode/cs474mp3/main.exe C:/ashish/vscode/cs474mp3/main.cpp C:/ashish/vscode/cs474mp3/SequenceableCollection.cpp
 ```
 
-Run
+## Run
 After successful compilation, execute the following command to run the compiled program:
 
 ```bash
 ./main.exe
 ```
 
-Test Cases
+## Test Cases
 The main.cpp file includes a series of test cases that cover the following functionalities:
 
-Initialization and Basic Properties: Verifies the initial state of an empty collection.
-Single Element Insertion: Tests insertion of a single element.
-Multiple Insertions without Resizing: Inserts elements to fill the initial capacity.
-Automatic Resizing: Validates resizing by inserting beyond initial capacity.
-Inserting at Specific Index: Checks shifting logic for inserting at a specific index.
-Removing Elements: Ensures correct behavior when removing elements.
-Iterating with a Function: Applies a function to each element and verifies results.
-Deep Copy Verification: Confirms that the copy constructor and assignment operator perform deep copies.
-Edge Case Handling: Tests inserting out-of-bounds and removing from an empty collection.
+- Initialization and Basic Properties: Verifies the initial state of an empty collection.
+- Single Element Insertion: Tests insertion of a single element.
+- Multiple Insertions without Resizing: Inserts elements to fill the initial capacity.
+- Automatic Resizing: Validates resizing by inserting beyond initial capacity.
+- Inserting at Specific Index: Checks shifting logic for inserting at a specific index.
+- Removing Elements: Ensures correct behavior when removing elements.
+- Iterating with a Function: Applies a function to each element and verifies results.
+- Deep Copy Verification: Confirms that the copy constructor and assignment operator perform deep copies.
+- Edge Case Handling: Tests inserting out-of-bounds and removing from an empty collection.
 
-Notes
-The SequenceableCollection class handles memory management with new and delete[] to avoid memory leaks.
-Ensure that all assertions pass to verify that the SequenceableCollection class functions as expected.
+## Notes
+- The SequenceableCollection class handles memory management with new and delete[] to avoid memory leaks.
+- Ensure that all assertions pass to verify that the SequenceableCollection class functions as expected.
