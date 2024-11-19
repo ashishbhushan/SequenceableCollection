@@ -38,12 +38,14 @@ g++ -std=c++11 -o ${folderLocation}/main.exe ${folderLocation}/main.cpp ${folder
 
 Example:
 g++ -std=c++11 -o C:/ashish/vscode/cs474mp3/main.exe C:/ashish/vscode/cs474mp3/main.cpp C:/ashish/vscode/cs474mp3/SequenceableCollection.cpp
+```
 
 Run
 After successful compilation, execute the following command to run the compiled program:
 
 ```bash
 ./main.exe
+```
 
 Test Cases
 The main.cpp file includes a series of test cases that cover the following functionalities:
